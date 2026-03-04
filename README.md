@@ -64,13 +64,6 @@ nohup bash -c "bash stage4_get_trip_od.sh && python -u stage5_spatil_kinematic_f
 * **Stage 6:** Run `python stage6_dataset_generate.py` to aggregate the validated records into three standardized products: `TaxiSH_Trip_Level_OD.csv`, `TaxiSH_OD_Flow.csv`, and `TaxiSH_InOut_Flow.csv`.
 * **Stage 7 (Optional):** Run `python stage7_generate_geometry.py` to generate the `Shanghai_Grid_Geometry.csv` file for immediate GIS mapping and visualization.
 
-## 🧪 Toy Sample Testing
-
-If you wish to test the pipeline without downloading the entire 133GB raw dataset, we have provided a miniature dataset in the `sample_data/` directory.
-
-1. Navigate to the `code/` directory.
-2. Modify the `input_file` paths in the scripts to point to `../sample_data/raw_sample.txt`.
-3. Run the scripts sequentially. The entire toy pipeline should execute in under 10 seconds.
 
 ## 🔗 Data Availability
 
