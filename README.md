@@ -22,8 +22,6 @@ TaxiSH/
 │   ├── stage6_dataset_generate.py           # Generation of the 3 final CSV datasets
 │   └── stage7_generate_geometry.py          # WKT geometry generation for standard Grid IDs
 │
-├── sample_data/                             # 100-line toy dataset for pipeline testing
-│   └── raw_sample.txt
 │
 └── README.md
 
