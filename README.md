@@ -13,7 +13,7 @@ The codebase transforms 133 GB of raw, noisy GPS streams (over 2.16 billion reco
 ```text
 TaxiSH/
 │
-├── code/
+├── Code/
 │   ├── stage1_get_occupied_trip.sh          # Raw stream segmentation based on taximeter status
 │   ├── stage2_point_level_refinement.py     # Heuristic intra-trip noise filtering (drifts, angles)
 │   ├── stage3_quality_assurance.py          # Trip-level QA (spatial-temporal continuity constraints)
